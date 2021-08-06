@@ -2,26 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/tvirag/Documents/GitHub/Analog-Voice/AJH_as3340_VCO/AJH_as3340_20.brd
 
-Start at      : 15:43:39 (2021. 08. 06.)
-End at        : 15:48:08 (2021. 08. 06.)
-Elapsed time  : 00:04:24
+Start at      : 16:23:17 (2021. 08. 06.)
+End at        : 16:24:20 (2021. 08. 06.)
+Elapsed time  : 00:01:02
 
 Signals       :    64   RoutingGrid: 2.5 mil  Layers: 2
 Connections   :   200   predefined:  0 ( 0 Vias )
 
-Router memory :   23158784
+Router memory :   4202496
 
-Job has been interrupted!
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Passname          : TopRouter     Route
+Time per pass     :  00:00:09  00:00:11  00:00:11  00:00:11  00:00:11  00:00:09
+Number of Ripups  :         0         3         0         0         0         0
+max. Level        :         0         1         0         0         0         0
+max. Total        :         0         5         0         0         0         0
 
-Time per pass     :  00:00:12  00:04:12
-Number of Ripups  :         0         0
-max. Level        :         0         7
-max. Total        :         0         6
+Routed            :        86       200       199       200       200       200
+Vias              :         0        75        88        73        68        59
+Resolution        :    43.0 %   100.0 %    99.5 %   100.0 %   100.0 %   100.0 %
 
-Routed            :        52       177
-Vias              :         0        36
-Resolution        :    26.0 %    88.5 %
-
-Final             : 88.5% befejeződött
+Final             : 100.0% befejeződött
