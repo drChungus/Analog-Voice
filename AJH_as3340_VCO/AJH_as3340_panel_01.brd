@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="25" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -64,6 +64,7 @@
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="11" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
@@ -122,6 +123,7 @@
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="190" name="Faceplate-Hole" color="12" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
@@ -161,6 +163,7 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="253" name="Extra" color="7" fill="1" visible="no" active="yes"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
@@ -340,6 +343,7 @@
 <wire x1="29.21" y1="74.93" x2="46.99" y2="74.93" width="1" layer="29" curve="-180"/>
 <rectangle x1="0" y1="-0.635" x2="30.48" y2="128.905" layer="1"/>
 <rectangle x1="-55.245" y1="36.83" x2="44.45" y2="72.39" layer="31"/>
+<circle x="-145.0975" y="110.1725" radius="2.2450625" width="0.1524" layer="22"/>
 </plain>
 <libraries>
 <library name="eurohelper">
@@ -354,13 +358,120 @@
 </package>
 </packages>
 </library>
+<library name="malekko main">
+<description>MALEKKO Library of Commonly Used Parts</description>
+<packages>
+<package name="SPDT-SUB">
+<description>SPDT Sub-Miniature Toggle</description>
+<wire x1="-2.51" y1="3.846" x2="-2.146" y2="4.1" width="0.127" layer="21" curve="-90.03149"/>
+<wire x1="-2.146" y1="4.1" x2="2.346" y2="4.1" width="0.127" layer="21"/>
+<wire x1="2.346" y1="4.1" x2="2.51" y2="3.846" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.51" y1="3.846" x2="2.51" y2="-3.646" width="0.127" layer="21"/>
+<wire x1="2.51" y1="-3.646" x2="2.146" y2="-4.1" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.146" y1="-4.1" x2="-2.346" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="-2.346" y1="-4.1" x2="-2.51" y2="-3.746" width="0.127" layer="21" curve="-90.03238"/>
+<wire x1="-2.51" y1="-3.746" x2="-2.51" y2="3.846" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.5" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="2.54" drill="0.889" diameter="1.651"/>
+<pad name="P$2" x="0" y="0" drill="0.889" diameter="1.651"/>
+<pad name="P$3" x="0" y="-2.54" drill="0.889" diameter="1.651"/>
+<text x="-3.21" y="4.92" size="1.27" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-3.71" y="-6.09" size="1.27" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="og-pj301_variations">
+<packages>
+<package name="WQP_PJ_301M6">
+<wire x1="4.4958" y1="5.9944" x2="4.4958" y2="-4.4958" width="0.127" layer="21"/>
+<wire x1="4.4958" y1="-4.4958" x2="-4.4958" y2="-4.4958" width="0.127" layer="21"/>
+<wire x1="-4.4958" y1="-4.4958" x2="-4.4958" y2="5.9944" width="0.127" layer="21"/>
+<wire x1="-4.4958" y1="5.9944" x2="4.4958" y2="5.9944" width="0.127" layer="21"/>
+<wire x1="-1.6002" y1="-4.4958" x2="-1.595" y2="-3.5" width="0.1016" layer="51"/>
+<wire x1="-1.595" y1="-3.5" x2="-1.095" y2="-3.5" width="0.1016" layer="51"/>
+<wire x1="-1.095" y1="-3.5" x2="-1" y2="-3.5" width="0.1016" layer="51"/>
+<wire x1="-1" y1="-3.5" x2="-1" y2="-3" width="0.1016" layer="51"/>
+<wire x1="1" y1="-3" x2="1" y2="-3.5" width="0.1016" layer="51"/>
+<wire x1="1" y1="-3.5" x2="1.095" y2="-3.5" width="0.1016" layer="51"/>
+<wire x1="1.095" y1="-3.5" x2="1.595" y2="-3.5" width="0.1016" layer="51"/>
+<wire x1="1.595" y1="-3.5" x2="1.595" y2="-4.5" width="0.1016" layer="51"/>
+<wire x1="1.095" y1="-3.5" x2="1.095" y2="-4.5" width="0.1016" layer="51"/>
+<wire x1="-1.095" y1="-3.5" x2="-1.095" y2="-4.5" width="0.1016" layer="51"/>
+<wire x1="2.628" y1="-2.994" x2="2.642" y2="2.994" width="0.1016" layer="51" curve="98.493311"/>
+<wire x1="-2.608" y1="3.004" x2="-2.642" y2="-2.994" width="0.1016" layer="51" curve="98.493503"/>
+<wire x1="-2.631" y1="-3" x2="2.62" y2="-3" width="0.1016" layer="51"/>
+<wire x1="-2.631" y1="3" x2="2.62" y2="3" width="0.1016" layer="51"/>
+<wire x1="0" y1="1" x2="0" y2="-1" width="0.1016" layer="51"/>
+<wire x1="-1" y1="0" x2="1" y2="0" width="0.1016" layer="51"/>
+<wire x1="1" y1="6" x2="1" y2="4.5" width="0.1016" layer="51"/>
+<wire x1="1" y1="4.5" x2="-1" y2="4.5" width="0.1016" layer="51"/>
+<wire x1="-1" y1="4.5" x2="-1" y2="6" width="0.1016" layer="51"/>
+<circle x="0.01" y="-0.01" radius="2.9916" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="2.7906" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="2.0602" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="1.8002" width="0.1016" layer="51"/>
+<pad name="P2" x="0" y="-3.175" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="P3" x="0" y="4.445" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="P1" x="0" y="-5.715" drill="1.016" diameter="1.778" shape="octagon"/>
+<text x="4.5" y="-5" size="1.27" layer="25" rot="R180">&gt;NAME</text>
+<hole x="0" y="0" drill="2.2"/>
+</package>
+</packages>
+</library>
+<library name="pot-alps">
+<packages>
+<package name="ALPS_POT_VERTICAL_PS">
+<wire x1="4.295" y1="-5.46" x2="-4.295" y2="-5.46" width="0.127" layer="21"/>
+<wire x1="-4.295" y1="-5.46" x2="-4.295" y2="4.33" width="0.127" layer="21"/>
+<wire x1="-4.295" y1="4.33" x2="4.295" y2="4.33" width="0.127" layer="21"/>
+<wire x1="4.295" y1="4.33" x2="4.295" y2="-5.46" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="0.625" x2="1.1" y2="0.625" width="0.2032" layer="21" curve="239.208901"/>
+<wire x1="-1.1" y1="0.625" x2="1.1" y2="0.625" width="0.2032" layer="21"/>
+<wire x1="-2.45" y1="0.625" x2="2.425" y2="0.625" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="0.2032" layer="21"/>
+<pad name="P$1" x="-2.5" y="7" drill="1" diameter="1.8796" shape="square" rot="R270"/>
+<pad name="P$2" x="0" y="7" drill="1" diameter="1.8796" shape="square" rot="R270"/>
+<pad name="P$3" x="2.5" y="7" drill="1" diameter="1.8796" shape="square" rot="R270"/>
+<pad name="P$4" x="-4.7" y="0" drill="1.5" diameter="2.54" shape="octagon" rot="R270"/>
+<pad name="P$5" x="4.7" y="0" drill="1.5" diameter="2.54" shape="octagon" rot="R270"/>
+<text x="3.81" y="-3.81" size="1.27" layer="25" rot="R180">&gt;NAME</text>
+<text x="3.81" y="-2.286" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="og-pots">
+<packages>
+<package name="ALPS_POT_VERTICAL">
+<wire x1="4.295" y1="-5.46" x2="-4.295" y2="-5.46" width="0.127" layer="21"/>
+<wire x1="-4.295" y1="-5.46" x2="-4.295" y2="4.33" width="0.127" layer="21"/>
+<wire x1="-4.295" y1="4.33" x2="4.295" y2="4.33" width="0.127" layer="21"/>
+<wire x1="4.295" y1="4.33" x2="4.295" y2="-5.46" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="0.625" x2="1.1" y2="0.625" width="0.2032" layer="21" curve="239.208901"/>
+<wire x1="-1.1" y1="0.625" x2="1.1" y2="0.625" width="0.2032" layer="21"/>
+<wire x1="-2.45" y1="0.625" x2="2.425" y2="0.625" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="0.2032" layer="21"/>
+<pad name="P$1" x="-2.5" y="6.7" drill="1" diameter="1.8796" shape="square" rot="R270"/>
+<pad name="P$2" x="0" y="6.7" drill="1" diameter="1.8796" shape="square" rot="R270"/>
+<pad name="P$3" x="2.5" y="6.7" drill="1" diameter="1.8796" shape="square" rot="R270"/>
+<pad name="P$4" x="-4.4" y="0" drill="2.2" diameter="3.175" shape="octagon" rot="R270"/>
+<pad name="P$5" x="4.4" y="0" drill="2.2" diameter="3.175" shape="octagon" rot="R270"/>
+<text x="3.81" y="-3.81" size="1.27" layer="25" rot="R180">&gt;NAME</text>
+<text x="3.81" y="-2.286" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.2032" drill="0.2032">
+<clearance class="0" value="0.2032"/>
+</class>
+<class number="1" name="power" width="0.3048" drill="0.3048">
+<clearance class="0" value="0.3048"/>
+<clearance class="1" value="0.3048"/>
 </class>
 </classes>
 <designrules name="default">
@@ -548,8 +659,140 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="E$1" library="eurohelper" package="EURO_PANEL_6HP" value="" x="0" y="0" locked="yes" smashed="yes"/>
+<element name="SYNC_SW1" library="malekko main" package="SPDT-SUB" value="submini-3T" x="-140.0175" y="184.785" locked="yes" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-136.365" y="184.82" locked="yes" size="1.27" layer="26" font="vector" ratio="12" rot="MR270"/>
+<attribute name="VALUE" x="-136.3075" y="178.695" locked="yes" size="1.27" layer="28" font="vector" ratio="12" rot="MR0"/>
+</element>
+<element name="SYNC_IN1" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="-120.3325" y="153.67" locked="yes" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-124.8325" y="148.67" locked="yes" size="1.27" layer="26" rot="MR180"/>
+</element>
+<element name="V_OCT1" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="-129.8575" y="139.3825" locked="yes" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-127.2625" y="141.2075" locked="yes" size="1.27" layer="26" rot="MR0"/>
+</element>
+<element name="S_OUT1" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="-139.3825" y="125.095" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-135.2" y="121.84" locked="yes" size="1.27" layer="26" rot="MR0"/>
+</element>
+<element name="FM_MOD1" library="pot-alps" package="ALPS_POT_VERTICAL_PS" value="10kB" x="-122.2375" y="167.9575" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-118.4275" y="171.7675" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="-118.4275" y="170.2435" locked="yes" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="PWM1" library="pot-alps" package="ALPS_POT_VERTICAL_PS" value="10kB" x="-137.4775" y="153.67" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-133.6675" y="157.48" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="-133.6675" y="155.956" locked="yes" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="OSC_FINE1" library="og-pots" package="ALPS_POT_VERTICAL" value="10kB" x="-137.16" y="205.74" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-132.715" y="209.55" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="-133.35" y="208.026" locked="yes" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="OSC_COARSE1" library="og-pots" package="ALPS_POT_VERTICAL" value="10kB" x="-125.095" y="219.075" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-116.5225" y="222.885" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="-121.285" y="221.361" locked="yes" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="PWM_IN1" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="-139.3825" y="139.3825" locked="yes" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-136.1525" y="141.2075" locked="yes" size="1.27" layer="26" rot="MR0"/>
+</element>
+<element name="FM_IN1" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="-120.3325" y="139.3825" locked="yes" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-118.055" y="141.2075" locked="yes" size="1.27" layer="26" rot="MR0"/>
+</element>
+<element name="P_OUT1" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="-129.8575" y="125.095" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-125.675" y="121.84" locked="yes" size="1.27" layer="26" rot="MR0"/>
+</element>
+<element name="T_OUT1" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="-120.3325" y="125.095" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-116.15" y="121.84" locked="yes" size="1.27" layer="26" rot="MR0"/>
+</element>
+<element name="PW1" library="pot-alps" package="ALPS_POT_VERTICAL_PS" value="10kB" x="-137.4775" y="167.9575" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-133.6675" y="171.7675" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="-133.6675" y="170.2435" locked="yes" size="1.27" layer="28" rot="MR0"/>
+</element>
 </elements>
 <signals>
+<signal name="GND1" class="1">
+<contactref element="SYNC_IN1" pad="P1"/>
+<contactref element="V_OCT1" pad="P1"/>
+<contactref element="S_OUT1" pad="P1"/>
+<contactref element="V_OCT1" pad="P2"/>
+<contactref element="SYNC_IN1" pad="P2"/>
+<contactref element="PWM_IN1" pad="P1"/>
+<contactref element="PWM_IN1" pad="P2"/>
+<contactref element="PWM1" pad="P$3"/>
+<contactref element="FM_IN1" pad="P1"/>
+<contactref element="FM_IN1" pad="P2"/>
+<contactref element="P_OUT1" pad="P1"/>
+<contactref element="T_OUT1" pad="P1"/>
+<contactref element="PW1" pad="P$3"/>
+<wire x1="-120.3325" y1="147.955" x2="-120.3325" y2="150.495" width="0" layer="19" extent="1-1"/>
+<wire x1="-120.3325" y1="136.2075" x2="-120.3325" y2="147.955" width="0" layer="19" extent="1-1"/>
+<wire x1="-120.3325" y1="133.6675" x2="-120.3325" y2="136.2075" width="0" layer="19" extent="1-1"/>
+<wire x1="-120.3325" y1="130.81" x2="-120.3325" y2="133.6675" width="0" layer="19" extent="1-1"/>
+<wire x1="-129.8575" y1="136.2075" x2="-120.3325" y2="136.2075" width="0" layer="19" extent="1-1"/>
+<wire x1="-129.8575" y1="133.6675" x2="-129.8575" y2="136.2075" width="0" layer="19" extent="1-1"/>
+<wire x1="-129.8575" y1="130.81" x2="-129.8575" y2="133.6675" width="0" layer="19" extent="1-1"/>
+<wire x1="-139.3825" y1="130.81" x2="-129.8575" y2="130.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-139.3825" y1="133.6675" x2="-139.3825" y2="130.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-139.3825" y1="136.2075" x2="-139.3825" y2="133.6675" width="0" layer="19" extent="1-1"/>
+<wire x1="-134.9775" y1="146.67" x2="-139.3825" y2="136.2075" width="0" layer="19" extent="1-1"/>
+<wire x1="-134.9775" y1="160.9575" x2="-134.9775" y2="146.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="5V1" class="1">
+<contactref element="OSC_FINE1" pad="P$1"/>
+<contactref element="OSC_COARSE1" pad="P$1"/>
+<contactref element="PW1" pad="P$1"/>
+<wire x1="-139.66" y1="199.04" x2="-127.595" y2="212.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-139.9775" y1="160.9575" x2="-139.66" y2="199.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="-5V1" class="1">
+<contactref element="OSC_FINE1" pad="P$3"/>
+<contactref element="OSC_COARSE1" pad="P$3"/>
+<wire x1="-134.66" y1="199.04" x2="-122.595" y2="212.375" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="PWM1" pad="P$2"/>
+</signal>
+<signal name="N$5">
+<contactref element="FM_MOD1" pad="P$1"/>
+<contactref element="FM_IN1" pad="P3"/>
+<wire x1="-120.3325" y1="143.8275" x2="-124.7375" y2="160.9575" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="HARDSYNC_IN1">
+<contactref element="SYNC_SW1" pad="P$1"/>
+</signal>
+<signal name="SOFTSYNC_IN1">
+<contactref element="SYNC_SW1" pad="P$3"/>
+</signal>
+<signal name="SYNC_IN1">
+<contactref element="SYNC_SW1" pad="P$2"/>
+<contactref element="SYNC_IN1" pad="P3"/>
+<wire x1="-120.3325" y1="158.115" x2="-140.0175" y2="184.785" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="S_OUT1" pad="P3"/>
+</signal>
+<signal name="MAIN_CV2">
+<contactref element="PWM_IN1" pad="P3"/>
+<contactref element="PWM1" pad="P$1"/>
+<wire x1="-139.9775" y1="146.67" x2="-139.3825" y2="143.8275" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="OSC_FINE1" pad="P$2"/>
+</signal>
+<signal name="N$8">
+<contactref element="OSC_COARSE1" pad="P$2"/>
+</signal>
+<signal name="N$9">
+<contactref element="V_OCT1" pad="P3"/>
+</signal>
+<signal name="N$13">
+<contactref element="PW1" pad="P$2"/>
+</signal>
+<signal name="N$14">
+<contactref element="FM_MOD1" pad="P$2"/>
+</signal>
+<signal name="N$15">
+<contactref element="P_OUT1" pad="P3"/>
+</signal>
+<signal name="N$16">
+<contactref element="T_OUT1" pad="P3"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
