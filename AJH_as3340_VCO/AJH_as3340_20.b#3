@@ -2618,6 +2618,18 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <via x="27.5463" y="34.9758" extent="1-16" drill="0.3048"/>
 <via x="19.7739" y="66.1797" extent="1-16" drill="0.3048"/>
 <via x="21.1455" y="61.722" extent="1-16" drill="0.3048"/>
+<polygon width="0.1778" layer="1">
+<vertex x="1.27" y="8.89"/>
+<vertex x="29.21" y="8.89"/>
+<vertex x="29.21" y="119.38"/>
+<vertex x="1.27" y="119.38"/>
+</polygon>
+<polygon width="0.1778" layer="16">
+<vertex x="1.27" y="8.89"/>
+<vertex x="29.21" y="8.89"/>
+<vertex x="29.21" y="119.38"/>
+<vertex x="1.27" y="119.38"/>
+</polygon>
 </signal>
 <signal name="12V" class="1">
 <contactref element="IC5" pad="16"/>

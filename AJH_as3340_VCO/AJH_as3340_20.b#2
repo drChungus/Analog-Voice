@@ -3,12 +3,12 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="12.5" unitdist="mil" unit="mil" style="dots" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
@@ -28,12 +28,12 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1989,19 +1989,19 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="NAME" x="18.4785" y="108.6485" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="21.3995" y="108.6485" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="SYNC_SW" library="malekko main" package="SPDT-SUB" value="submini-3T" x="5.08" y="74.6125" smashed="yes" rot="MR0">
-<attribute name="NAME" x="8.7325" y="74.6475" size="1.27" layer="26" font="vector" ratio="12" rot="MR270"/>
-<attribute name="VALUE" x="8.79" y="68.5225" size="1.27" layer="28" font="vector" ratio="12" rot="MR0"/>
+<element name="SYNC_SW" library="malekko main" package="SPDT-SUB" value="submini-3T" x="5.08" y="74.6125" locked="yes" smashed="yes" rot="MR0">
+<attribute name="NAME" x="8.7325" y="74.6475" locked="yes" size="1.27" layer="26" font="vector" ratio="12" rot="MR270"/>
+<attribute name="VALUE" x="8.79" y="68.5225" locked="yes" size="1.27" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
-<element name="FM_SW" library="malekko main" package="SPDT-SUB" value="submini-3T" x="25.4" y="74.6125" smashed="yes" rot="MR0">
-<attribute name="NAME" x="28.61" y="79.5325" size="1.27" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="29.11" y="68.5225" size="1.27" layer="28" font="vector" ratio="12" rot="MR0"/>
+<element name="FM_SW" library="malekko main" package="SPDT-SUB" value="submini-3T" x="25.4" y="74.6125" locked="yes" smashed="yes" rot="MR0">
+<attribute name="NAME" x="28.61" y="79.5325" locked="yes" size="1.27" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="29.11" y="68.5225" locked="yes" size="1.27" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
-<element name="SYNC_IN" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="24.765" y="43.4975" smashed="yes" rot="MR0">
-<attribute name="NAME" x="20.265" y="38.4975" size="1.27" layer="26" rot="MR180"/>
+<element name="SYNC_IN" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="24.765" y="43.4975" locked="yes" smashed="yes" rot="MR0">
+<attribute name="NAME" x="20.265" y="38.4975" locked="yes" size="1.27" layer="26" rot="MR180"/>
 </element>
-<element name="V_OCT" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="15.24" y="29.21" smashed="yes" rot="MR0">
-<attribute name="NAME" x="17.835" y="31.035" size="1.27" layer="26" rot="MR0"/>
+<element name="V_OCT" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="15.24" y="29.21" locked="yes" smashed="yes" rot="MR0">
+<attribute name="NAME" x="17.835" y="31.035" locked="yes" size="1.27" layer="26" rot="MR0"/>
 </element>
 <element name="C18" library="rcl" package="PANASONIC_B" value="10u" x="15.24" y="38.735" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.94" y="36.585" size="1.016" layer="25" rot="R90"/>
@@ -2019,8 +2019,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="NAME" x="1.524" y="16.129" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="1.143" y="12.319" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="S_OUT" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="5.715" y="14.9225" smashed="yes" rot="MR180">
-<attribute name="NAME" x="9.8975" y="11.6675" size="1.27" layer="26" rot="MR0"/>
+<element name="S_OUT" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="5.715" y="14.9225" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="9.8975" y="11.6675" locked="yes" size="1.27" layer="26" rot="MR0"/>
 </element>
 <element name="OSC_SCALE" library="rcl" package="RTRIM3296X" value="10k" x="23.3985" y="93.27" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.993" y="90.585" size="1.27" layer="25" rot="R180"/>
@@ -2030,27 +2030,27 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="NAME" x="29.0655" y="91.6425" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="18.9285" y="83.685" size="1.27" layer="27"/>
 </element>
-<element name="FM_MOD" library="pot-alps" package="ALPS_POT_VERTICAL_PS" value="10kB" x="22.86" y="57.785" smashed="yes" rot="MR180">
-<attribute name="NAME" x="26.67" y="61.595" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="26.67" y="60.071" size="1.27" layer="28" rot="MR0"/>
+<element name="FM_MOD" library="pot-alps" package="ALPS_POT_VERTICAL_PS" value="10kB" x="22.86" y="57.785" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="26.67" y="61.595" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="26.67" y="60.071" locked="yes" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="PWM" library="pot-alps" package="ALPS_POT_VERTICAL_PS" value="10kB" x="7.62" y="43.4975" smashed="yes" rot="MR180">
-<attribute name="NAME" x="11.43" y="47.3075" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="11.43" y="45.7835" size="1.27" layer="28" rot="MR0"/>
+<element name="PWM" library="pot-alps" package="ALPS_POT_VERTICAL_PS" value="10kB" x="7.62" y="43.4975" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="11.43" y="47.3075" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="11.43" y="45.7835" locked="yes" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="OSC_FINE" library="og-pots" package="ALPS_POT_VERTICAL" value="10kB" x="7.9375" y="95.5675" smashed="yes" rot="MR180">
-<attribute name="NAME" x="12.3825" y="99.3775" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="11.7475" y="97.8535" size="1.27" layer="28" rot="MR0"/>
+<element name="OSC_FINE" library="og-pots" package="ALPS_POT_VERTICAL" value="10kB" x="7.9375" y="95.5675" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="12.3825" y="99.3775" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="11.7475" y="97.8535" locked="yes" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="OSC_COARSE" library="og-pots" package="ALPS_POT_VERTICAL" value="10kB" x="20.0025" y="108.9025" smashed="yes" rot="MR180">
-<attribute name="NAME" x="28.575" y="112.7125" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="23.8125" y="111.1885" size="1.27" layer="28" rot="MR0"/>
+<element name="OSC_COARSE" library="og-pots" package="ALPS_POT_VERTICAL" value="10kB" x="20.0025" y="108.9025" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="28.575" y="112.7125" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="23.8125" y="111.1885" locked="yes" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="PWM_IN" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="5.715" y="29.21" smashed="yes" rot="MR0">
-<attribute name="NAME" x="8.945" y="31.035" size="1.27" layer="26" rot="MR0"/>
+<element name="PWM_IN" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="5.715" y="29.21" locked="yes" smashed="yes" rot="MR0">
+<attribute name="NAME" x="8.945" y="31.035" locked="yes" size="1.27" layer="26" rot="MR0"/>
 </element>
-<element name="FM_IN" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="24.765" y="29.21" smashed="yes" rot="MR0">
-<attribute name="NAME" x="27.0425" y="31.035" size="1.27" layer="26" rot="MR0"/>
+<element name="FM_IN" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="24.765" y="29.21" locked="yes" smashed="yes" rot="MR0">
+<attribute name="NAME" x="27.0425" y="31.035" locked="yes" size="1.27" layer="26" rot="MR0"/>
 </element>
 <element name="R7" library="resistor" package="R0603" value="100k" x="19.05" y="81.5975" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.939" y="80.7085" size="1.27" layer="25" rot="R180"/>
@@ -2180,15 +2180,15 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="NAME" x="12.319" y="12.319" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="9.398" y="12.319" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="P_OUT" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="15.24" y="14.9225" smashed="yes" rot="MR180">
-<attribute name="NAME" x="19.4225" y="11.6675" size="1.27" layer="26" rot="MR0"/>
+<element name="P_OUT" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="15.24" y="14.9225" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="19.4225" y="11.6675" locked="yes" size="1.27" layer="26" rot="MR0"/>
 </element>
 <element name="R42" library="resistor" package="R0603" value="100" x="21.9075" y="10.795" smashed="yes">
 <attribute name="NAME" x="21.0185" y="11.684" size="1.27" layer="25"/>
 <attribute name="VALUE" x="21.0185" y="8.763" size="1.27" layer="27"/>
 </element>
-<element name="T_OUT" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="24.765" y="14.9225" smashed="yes" rot="MR180">
-<attribute name="NAME" x="28.9475" y="11.6675" size="1.27" layer="26" rot="MR0"/>
+<element name="T_OUT" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="24.765" y="14.9225" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="28.9475" y="11.6675" locked="yes" size="1.27" layer="26" rot="MR0"/>
 </element>
 <element name="R27" library="resistor" package="R0603" value="47k" x="10.795" y="33.655" smashed="yes">
 <attribute name="NAME" x="9.906" y="34.544" size="1.27" layer="25"/>
@@ -2290,9 +2290,9 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="NAME" x="26.67" y="64.135" size="1.27" layer="25"/>
 <attribute name="VALUE" x="26.67" y="61.595" size="1.27" layer="27"/>
 </element>
-<element name="PW" library="pot-alps" package="ALPS_POT_VERTICAL_PS" value="10kB" x="7.62" y="57.785" smashed="yes" rot="MR180">
-<attribute name="NAME" x="11.43" y="61.595" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="11.43" y="60.071" size="1.27" layer="28" rot="MR0"/>
+<element name="PW" library="pot-alps" package="ALPS_POT_VERTICAL_PS" value="10kB" x="7.62" y="57.785" locked="yes" smashed="yes" rot="MR180">
+<attribute name="NAME" x="11.43" y="61.595" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="11.43" y="60.071" locked="yes" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C23" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18p" x="9.8425" y="29.845" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.4775" y="30.48" size="1.27" layer="25" rot="R270"/>
@@ -3517,7 +3517,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="27.5463" y1="67.0941" x2="27.5463" y2="71.6661" width="0.2032" layer="1"/>
 <wire x1="27.5463" y1="62.6364" x2="27.5463" y2="67.0941" width="0.2032" layer="16"/>
 <wire x1="22.86" y1="57.9501" x2="27.5463" y2="62.6364" width="0.2032" layer="16"/>
-<wire x1="22.86" y1="50.785" x2="22.86" y2="57.9501" width="0.2032" layer="16"/>
+<wire x1="22.86" y1="50.785" x2="22.86" y2="57.9501" width="0.2032" layer="16" locked="yes"/>
 <wire x1="15.8877" y1="81.3816" x2="15.935" y2="81.28" width="0.2032" layer="1"/>
 <via x="14.2875" y="81.4959" extent="1-16" drill="0.3"/>
 <via x="22.2885" y="78.0669" extent="1-16" drill="0.3"/>
@@ -4012,6 +4012,10 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>
