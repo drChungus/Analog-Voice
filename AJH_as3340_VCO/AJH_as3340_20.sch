@@ -21216,7 +21216,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="38.1" y1="-109.22" x2="48.26" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="N$6" class="1">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="-149.86" y1="-106.68" x2="-154.94" y2="-106.68" width="0.1524" layer="91"/>
@@ -21226,7 +21226,7 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="-149.86" y="-106.68"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="N$20" class="1">
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="-149.86" y1="-116.84" x2="-154.94" y2="-116.84" width="0.1524" layer="91"/>
