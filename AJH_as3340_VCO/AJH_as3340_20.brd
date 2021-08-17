@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="12.5" unitdist="mil" unit="mil" style="dots" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1935,7 +1935,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </autorouter>
 <elements>
 <element name="C6" library="rcl" package="C0603" value="100n" x="16.51" y="87.63" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.145" y="89.2175" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="15.875" y="88.9" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="18.415" y="86.995" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C7" library="rcl" package="C0603" value="100n" x="8.255" y="81.915" smashed="yes" rot="R270">
@@ -2024,11 +2024,11 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="NAME" x="9.8975" y="11.6675" locked="yes" size="1.27" layer="26" rot="MR0"/>
 </element>
 <element name="OSC_SCALE" library="rcl" package="RTRIM3296X" value="10k" x="23.3985" y="93.27" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.3105" y="97.57" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="28.993" y="97.2525" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="18.8985" y="89.32" size="1.27" layer="27"/>
 </element>
 <element name="OSC_HI" library="rcl" package="RTRIM3296X" value="20k" x="23.4285" y="87.635" smashed="yes" rot="R270">
-<attribute name="NAME" x="26.208" y="91.0075" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="18.9055" y="90.69" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="18.9285" y="83.685" size="1.27" layer="27"/>
 </element>
 <element name="FM_MOD" library="pot-alps" package="ALPS_POT_VERTICAL_PS" value="10kB" x="22.86" y="57.785" locked="yes" smashed="yes" rot="MR180">

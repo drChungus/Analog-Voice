@@ -2288,7 +2288,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="VALUE" x="26.416" y="58.928" size="1.27" layer="27"/>
 </element>
 <element name="C16" library="rcl" package="C0603" value="100n" x="27.305" y="63.5" smashed="yes">
-<attribute name="NAME" x="26.67" y="64.135" size="1.27" layer="25"/>
+<attribute name="NAME" x="25.0825" y="64.135" size="1.27" layer="25"/>
 <attribute name="VALUE" x="26.67" y="61.595" size="1.27" layer="27"/>
 </element>
 <element name="PW" library="pot-alps" package="ALPS_POT_VERTICAL_PS" value="10kB" x="7.62" y="57.785" locked="yes" smashed="yes" rot="MR180">
