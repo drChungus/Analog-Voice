@@ -169,14 +169,8 @@
 </layers>
 <board>
 <plain>
+<circle x="0" y="0" radius="2.2450625" width="0.1524" layer="22"/>
 <rectangle x1="0.9525" y1="105.41" x2="12.3825" y2="107.315" layer="21"/>
-<text x="15.24" y="84.455" size="1.778" layer="26" rot="MR0" align="center">CC-BY-NC-SA 4.0</text>
-<text x="14.9225" y="75.2475" size="1.397" layer="26" rot="MR180" align="center">Original design 
-by
-Forest Caver</text>
-<text x="15.24" y="68.2625" size="1.397" layer="26" rot="MR180" align="center">Remix
-by
-dr.Chungus</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1997,7 +1991,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="VALUE" x="22.352" y="105.4735" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="SYNC_SW" library="malekko main" package="SPDT-SUB" value="submini-3T" x="5.08" y="74.6125" locked="yes" smashed="yes" rot="MR180">
-<attribute name="NAME" x="9.56" y="79.5325" size="1.27" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="1.4275" y="74.5775" locked="yes" size="1.27" layer="26" font="vector" ratio="12" rot="MR90"/>
 <attribute name="VALUE" x="1.37" y="80.7025" locked="yes" size="1.27" layer="28" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="FM_SW" library="malekko main" package="SPDT-SUB" value="submini-3T" x="25.4" y="74.6125" locked="yes" smashed="yes" rot="MR0">
@@ -2005,7 +1999,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="VALUE" x="29.11" y="68.5225" locked="yes" size="1.27" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="SYNC_IN" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="24.765" y="43.4975" locked="yes" smashed="yes" rot="MR0">
-<attribute name="NAME" x="27.995" y="45.3225" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="20.265" y="38.4975" locked="yes" size="1.27" layer="26" rot="MR180"/>
 </element>
 <element name="V_OCT" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="15.24" y="29.21" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="17.835" y="31.035" locked="yes" size="1.27" layer="26" rot="MR0"/>
@@ -2046,11 +2040,11 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="VALUE" x="11.43" y="45.7835" locked="yes" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="OSC_FINE" library="og-pots" package="ALPS_POT_VERTICAL" value="10kB" x="7.9375" y="95.5675" locked="yes" smashed="yes" rot="MR180">
-<attribute name="NAME" x="11.7475" y="99.3775" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="12.3825" y="99.3775" locked="yes" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="11.7475" y="97.8535" locked="yes" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="OSC_COARSE" library="og-pots" package="ALPS_POT_VERTICAL" value="10kB" x="20.0025" y="108.9025" locked="yes" smashed="yes" rot="MR180">
-<attribute name="NAME" x="25.0825" y="114.6175" locked="yes" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="28.575" y="112.7125" locked="yes" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="23.8125" y="111.1885" locked="yes" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="PWM_IN" library="og-pj301_variations" package="WQP_PJ_301M6" value="PJ301_THONKICONN6" x="5.715" y="29.21" locked="yes" smashed="yes" rot="MR0">
@@ -2499,7 +2493,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="15.0876" y1="101.4984" x2="14.0589" y2="100.4697" width="0.3048" layer="1"/>
 <wire x1="15.0876" y1="104.8131" x2="15.0876" y2="101.4984" width="0.3048" layer="1"/>
 <wire x1="11.0871" y1="108.8136" x2="11.48715" y2="108.41355" width="0.3048" layer="1"/>
-<wire x1="11.0109" y1="108.8898" x2="11.0871" y2="108.8136" width="0.3048" layer="1"/>
 <wire x1="11.48715" y1="108.41355" x2="15.0876" y2="104.8131" width="0.3048" layer="1"/>
 <wire x1="8.3439" y1="108.8136" x2="11.0871" y2="108.8136" width="0.3048" layer="1"/>
 <wire x1="13.3731" y1="99.8982" x2="13.335" y2="99.7975" width="0.3048" layer="1"/>
@@ -2528,8 +2521,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="27.5463" y1="104.3559" x2="27.635" y2="104.4575" width="0.3048" layer="1"/>
 <wire x1="27.6606" y1="114.3" x2="21.9456" y2="114.3" width="0.3048" layer="1"/>
 <wire x1="21.9456" y1="114.3" x2="21.9075" y2="114.1975" width="0.3048" layer="1"/>
-<wire x1="16.4211" y1="114.3" x2="11.0109" y2="108.8898" width="0.3048" layer="1"/>
-<wire x1="17.4879" y1="114.3" x2="16.4211" y2="114.3" width="0.3048" layer="1"/>
+<wire x1="17.3736" y1="114.3" x2="11.48715" y2="108.41355" width="0.3048" layer="1"/>
+<wire x1="17.4879" y1="114.3" x2="17.3736" y2="114.3" width="0.3048" layer="1"/>
 <wire x1="17.4879" y1="114.3" x2="17.6325" y2="114.2975" width="0.3048" layer="1"/>
 <wire x1="24.1173" y1="66.7512" x2="21.2598" y2="66.7512" width="0.3048" layer="1"/>
 <wire x1="24.4602" y1="67.0941" x2="24.1173" y2="66.7512" width="0.3048" layer="1"/>
@@ -3998,10 +3991,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </board>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
