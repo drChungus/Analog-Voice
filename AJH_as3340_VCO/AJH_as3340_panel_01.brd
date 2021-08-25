@@ -203,7 +203,7 @@
 <hole x="-5.715" y="14.9225" drill="6" locked="yes"/>
 <hole x="-15.24" y="14.9225" drill="6" locked="yes"/>
 <hole x="-24.765" y="14.9225" drill="6" locked="yes"/>
-<text x="-23.495" y="108.9025" size="2.5" layer="30" rot="MR0" align="center">COARSE</text>
+<text x="-25.0825" y="108.9025" size="2.5" layer="30" rot="MR0" align="center">TUNE</text>
 <text x="-13.6525" y="95.5675" size="2.5" layer="30" rot="MR0" align="center">FINE</text>
 <text x="-5.08" y="80.645" size="2.5" layer="30" rot="MR0" align="center">LIN</text>
 <text x="-5.08" y="68.8975" size="2.5" layer="30" rot="MR0" align="center">EXP</text>
@@ -223,8 +223,8 @@
 <rectangle x1="-30.48" y1="0" x2="0" y2="10.16" layer="16"/>
 <text x="-29.845" y="1.905" size="2.5" layer="30" rot="MR0" align="bottom-right">dr.Chungus</text>
 <rectangle x1="-30.48" y1="0" x2="0" y2="128.5875" layer="1"/>
-<text x="-29.845" y="119.0625" size="2.5" layer="30" rot="MR0" align="bottom-right">Forest Caver
-AS3340 VCO</text>
+<text x="-29.845" y="119.0625" size="2.5" layer="30" rot="MR0" align="bottom-right">AS3340 VCO</text>
+<text x="-29.845" y="122.555" size="2.25" layer="30" rot="MR0" align="bottom-right">Forest Caver's</text>
 </plain>
 <libraries>
 <library name="eurohelper">
@@ -953,10 +953,6 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="9.5" severity="warning">
 Since Version 9.5, EAGLE supports persistent groups with
 schematics, and board files. Those persistent groups

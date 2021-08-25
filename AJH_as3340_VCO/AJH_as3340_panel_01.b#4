@@ -203,7 +203,7 @@
 <hole x="-5.715" y="14.9225" drill="6" locked="yes"/>
 <hole x="-15.24" y="14.9225" drill="6" locked="yes"/>
 <hole x="-24.765" y="14.9225" drill="6" locked="yes"/>
-<text x="-25.0825" y="108.9025" size="2.5" layer="30" rot="MR0" align="center">TUNE</text>
+<text x="-23.495" y="108.9025" size="2.5" layer="30" rot="MR0" align="center">COARSE</text>
 <text x="-13.6525" y="95.5675" size="2.5" layer="30" rot="MR0" align="center">FINE</text>
 <text x="-5.08" y="80.645" size="2.5" layer="30" rot="MR0" align="center">LIN</text>
 <text x="-5.08" y="68.8975" size="2.5" layer="30" rot="MR0" align="center">EXP</text>
@@ -221,13 +221,9 @@
 <text x="-25.4" y="68.8975" size="2.5" layer="30" rot="MR0" align="center">SOFT</text>
 <rectangle x1="-30.48" y1="118.4275" x2="0" y2="128.5875" layer="16"/>
 <rectangle x1="-30.48" y1="0" x2="0" y2="10.16" layer="16"/>
-<text x="-29.845" y="1.905" size="2.5" layer="30" rot="MR0" align="bottom-right">dr.Chungus</text>
+<text x="-30.1625" y="1.905" size="3" layer="30" rot="MR0" align="bottom-right">dr.Chungus</text>
 <rectangle x1="-30.48" y1="0" x2="0" y2="128.5875" layer="1"/>
-<text x="-29.845" y="119.0625" size="2.5" layer="30" rot="MR0" align="bottom-right">AS3340 VCO</text>
-<dimension x1="-7.882125" y1="106.554303125" x2="-13.072875" y2="111.250696875" x3="-22.542503125" y3="95.567503125" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="-25.137875" y1="97.915696875" x2="-19.947125" y2="93.219303125" x3="-10.4775" y3="108.902496875" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="-10.4775" y1="108.9025" x2="-19.685" y2="108.9025" x3="-15.08125" y3="101.6" textsize="1.778" layer="52" dtype="diameter"/>
-<text x="-29.845" y="122.555" size="2.25" layer="30" rot="MR0" align="bottom-right">Forest Caver's</text>
+<text x="-13.97" y="120.9675" size="5" layer="30" rot="MR0">3340</text>
 </plain>
 <libraries>
 <library name="eurohelper">
