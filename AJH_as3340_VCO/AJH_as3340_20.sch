@@ -21805,6 +21805,7 @@ Source: AVX .. aphvc.pdf</description>
 <approved hash="104,1,-38.1,-121.92,IC3P,V-,-12V,,,"/>
 <approved hash="104,1,-33.02,-106.68,IC6P,V+,12V,,,"/>
 <approved hash="104,1,-33.02,-121.92,IC6P,V-,-12V,,,"/>
+<approved hash="113,1,-142.24,-113.637,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>

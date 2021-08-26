@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="dots" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mm" style="dots" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -170,13 +170,9 @@
 <board>
 <plain>
 <rectangle x1="0.9525" y1="105.41" x2="12.3825" y2="107.315" layer="21"/>
-<text x="15.24" y="84.455" size="1.778" layer="26" rot="MR0" align="center">CC-BY-NC-SA 4.0</text>
-<text x="14.9225" y="75.2475" size="1.397" layer="26" rot="MR180" align="center">Original design 
-by
-Forest Caver</text>
-<text x="15.24" y="68.2625" size="1.397" layer="26" rot="MR180" align="center">Remix
-by
-dr.Chungus</text>
+<text x="9.2075" y="92.3925" size="1.2" layer="25" align="center">CC-BY-NC-SA 4.0</text>
+<text x="27.6225" y="40.64" size="2" layer="25" rot="R90" align="center">Design by Forest Caver</text>
+<text x="2.54" y="30.1625" size="1.5" layer="25" rot="R270" align="center">Remix by dr.Chungus</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2210,7 +2206,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="VALUE" x="10.541" y="45.593" size="1.27" layer="27"/>
 </element>
 <element name="R32" library="resistor" package="R0603" value="100k" x="7.9375" y="30.1625" smashed="yes" rot="R270">
-<attribute name="NAME" x="3.556" y="30.734" size="1.27" layer="25"/>
+<attribute name="NAME" x="4.191" y="31.369" size="1.27" layer="25"/>
 <attribute name="VALUE" x="5.9055" y="31.0515" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R29" library="resistor" package="R0603" value="100k" x="13.0175" y="29.21" smashed="yes" rot="R270">
@@ -3998,10 +3994,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </board>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
