@@ -224,9 +224,6 @@
 <text x="-29.845" y="1.905" size="2.5" layer="30" rot="MR0" align="bottom-right">dr.Chungus</text>
 <rectangle x1="-30.48" y1="0" x2="0" y2="128.5875" layer="1"/>
 <text x="-29.845" y="119.0625" size="2.5" layer="30" rot="MR0" align="bottom-right">AS3340 VCO</text>
-<dimension x1="-7.882125" y1="106.554303125" x2="-13.072875" y2="111.250696875" x3="-22.542503125" y3="95.567503125" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="-25.137875" y1="97.915696875" x2="-19.947125" y2="93.219303125" x3="-10.4775" y3="108.902496875" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="-10.4775" y1="108.9025" x2="-19.685" y2="108.9025" x3="-15.08125" y3="101.6" textsize="1.778" layer="52" dtype="diameter"/>
 <text x="-29.845" y="122.555" size="2.25" layer="30" rot="MR0" align="bottom-right">Forest Caver's</text>
 </plain>
 <libraries>
