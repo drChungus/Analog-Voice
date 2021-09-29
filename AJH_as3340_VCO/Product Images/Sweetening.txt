@@ -8,12 +8,12 @@ A modul ForestCaver [https://github.com/forestcaver] tervei alapján, a szerző 
 
 Technikai jellemzők:
 
-Szélesség: 6HP
+Szélesség: 6 HP
 Mélység: < 25 mm
 Kimeneti jelalakok: háromszög, négyszög (PWM-el), fűrészfog
 Kapcsolható lineáris és exponenciális frekvenciamoduláció, hard- és softsync
 Állítható hangolás és finomhangolás, pulzusszélesség (0% - 100%)
-Attenuálható pulzusszélesség moduláció, választható erejű és előjelű frekvenciamoduláció
+Attenuálható pulzusszélesség moduláció, választható erejű és előjelű külső frekvenciamoduláció
 
 
 50e HUF
