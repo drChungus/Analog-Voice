@@ -14,3 +14,6 @@ Kimeneti jelalakok: háromszög, négyszög (PWM-el), fűrészfog
 Kapcsolható lineáris és exponenciális frekvenciamoduláció, hard- és softsync
 Állítható hangolás és finomhangolás, pulzusszélesség (0% - 100%)
 Attenuálható pulzusszélesség moduláció, választható erejű és előjelű frekvenciamoduláció
+
+
+50e HUF
