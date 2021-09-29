@@ -1,0 +1,16 @@
+Eladó ForestCaver's AS3340 VCO. 
+
+Teljesen analóg, a modul lelkét a Curtuis CEM 3340-es ICn alapuló, modernizált AS3340 alkotja.
+A precíziós feszültségvezérelt oszcillátor beépített exponenciális konverterrel és hőmérséklet kompenzációval rendelkezik. A modul 6 oktávon keresztül ±5 cent pontossággal követi a V/O jelet.
+Fekete FR4 panel, aranyszínű feliratokkal és előlapi dombormintával.
+Villamosmérnök által tervezve, építve, tesztelve és kalibrálva.
+A modul ForestCaver [https://github.com/forestcaver] tervei alapján, a szerző belegyezésével került módosításra. Limitált darabszámban készült, és kerül eladásra.
+
+Technikai jellemzők:
+
+Szélesség: 6HP
+Mélység: < 25 mm
+Kimeneti jelalakok: háromszög, négyszög (PWM-el), fűrészfog
+Kapcsolható lineáris és exponenciális frekvenciamoduláció, hard- és softsync
+Állítható hangolás és finomhangolás, pulzusszélesség (0% - 100%)
+Attenuálható pulzusszélesség moduláció, választható erejű és előjelű frekvenciamoduláció
