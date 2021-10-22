@@ -17,3 +17,24 @@ Attenuálható pulzusszélesség moduláció, választható erejű és előjelű
 
 
 50e HUF
+
+----------------------------------------------------------------------------------------------------------------
+
+Forest Caver's AS3340 VCO
+
+Completely Analogue , based on the AS3340 IC. Precise voltage controlled oscillator, with built in exponential converter and temperature compensation. The module is able to track with a high accuracy through a wide range. This bad boy packs some punch in a really small space and keeps tuning very well.
+
+Black FR4 panel with golden graphics and embossing.
+
+Designed, built, tested and calibrated by an engineer with many years of experience.
+
+This module is based on the original design of Forest Caver[https://github.com/forestcaver], remixed and available for sale in a very limited quantity with his permission. Grab yours before they are all gone!
+
+
+Technical Details
+Width: 6 HP
+Depth: 25 mm
+Outputs: triangle, saw, square with PWM (all 10 Vpp)
+Linear or Exponential bipolar FM
+Hard and Soft sync
+Tuning, fine tuning and PWM (0-100%) pots
